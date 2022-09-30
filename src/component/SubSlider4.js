@@ -21,7 +21,7 @@ export default class SubSlider4 extends React.Component{
                         <input type="text" className="form-control" placeholder="Email *" />
                         </div>
                         <div className="phone">
-                        <input type="number" className="form-control" placeholder="Phone" />
+                        <input type="text" className="form-control" placeholder="Phone *" />
                         </div>
                     </div>
                     <div className="form-colum item2">
@@ -32,7 +32,6 @@ export default class SubSlider4 extends React.Component{
                         <textarea
                             name="message"
                             id="what"
-                            
                             placeholder="You're looking for *"
                             className="form-control"
                             defaultValue={""}

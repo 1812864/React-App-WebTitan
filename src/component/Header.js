@@ -7,6 +7,7 @@ class HeaderPage extends React.Component {
     constructor ( props ) {
         super ( props )
         this.handleScroll = this.handleScroll.bind ( this )
+        
      }
      componentDidMount ( ) {
         window.addEventListener ( ' scroll ' , this.handleScroll ( ) )
@@ -36,8 +37,8 @@ class HeaderPage extends React.Component {
         return (
             <div className="header" id="main-header">
                 <div className="logo">
-                    <a href="">
-                    <img src={logo} alt="" />
+                    <a href="#bottom">
+                        <img src={logo} />
                     </a>
                 </div>
                 <div className="nav">
@@ -48,8 +49,8 @@ class HeaderPage extends React.Component {
                             </button>
                         </li>
                         <li>
-                            <a href="#">
-                            <img src={Flag} width="20px" height="20px" />
+                            <a>
+                            <button id="btn-menu" className="btn-menu" onClick={this.props.renderLogin}>Login</button>
                             <span>日本</span>
                             </a>
                         </li>

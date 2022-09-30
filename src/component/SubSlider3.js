@@ -5,7 +5,7 @@ import time from '../img/time.png'
 export default class SubSlider3 extends React.Component{
     render() {
         return(
-            <div className="body-model">
+            <div className="body-model" id="body-modal">
                 <div className="container">
                     <div className="title-venture">
                     <h1>

@@ -21,7 +21,7 @@ export default class SubSlider extends React.Component{
                     <div className="development">
                     <div className="img">
                         <a href="">
-                        <img src={download} />
+                        <div className="image"><img src={download} /></div>
                         <h1>Software Development</h1>
                         </a>
                     </div>
